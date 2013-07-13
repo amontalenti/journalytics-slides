@@ -1,0 +1,4 @@
+Sphinx
+Hieroglyph
+watchdog
+argcomplete
