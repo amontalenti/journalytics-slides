@@ -47,7 +47,7 @@ Being redefined, but not without trouble.
 
 .. rst-class:: build
 
-* | **Legacy definition**: "Content by professional journalists." 
+* | **Legacy definition**: "Content by professionals." 
   | Is BuzzFeed journalism?
 * | **Romantic definition**: "Content in the public interest."
   | Is Wikipedia journalism?
@@ -331,6 +331,18 @@ Other important infrastructure
     Fabric        scriptable SSH sessions
     ============= ==========================================
 
+Things we learned
+=================
+
+.. rst-class:: build
+
+* Web data is messy.
+* Aggregates over time series data is a hard problem.
+* Must "become one" with your raw data.
+* Server automation (via e.g. Chef) is crucial.
+* Batch vs Stream path: an important pattern.
+* High-memory cloud servers will change the game.
+
 2013 areas of interest
 ======================
 
@@ -347,6 +359,7 @@ Crazy data ideas
 .. rst-class:: build
 
 * Solr for time series data?
+* Storm-DRPC for live aggregates?
 * Cassandra > MongoDB + Redis?
 * Real-time Map/Reduce?
 

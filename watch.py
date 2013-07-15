@@ -8,7 +8,7 @@ from urllib import pathname2url
 from watchdog.observers import Observer
 from watchdog.events import PatternMatchingEventHandler
 
-MAKE_COMMAND = 'sphinx-build -b slides . ./_build/slides'.split()
+MAKE_COMMAND = 'make slides'.split()
 
 class SphinxEventHandler(PatternMatchingEventHandler):
     """Rebuild and refresh on every change event."""
@@ -77,6 +77,7 @@ if __name__ == "__main__":
         observer.schedule(event_handler, path=os.path.abspath("."), 
                 recursive=True)
         observer.start()
+        event_handler._run()
         try:
             while True:
                 time.sleep(1)
