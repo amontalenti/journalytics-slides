@@ -5,6 +5,7 @@ import subprocess
 import time
 
 from urllib import pathname2url
+from urllib2 import URLError
 from watchdog.observers import Observer
 from watchdog.events import PatternMatchingEventHandler
 
@@ -23,7 +24,10 @@ class SphinxEventHandler(PatternMatchingEventHandler):
         self.driver.get(url)
 
     def cleanup(self):
-        self.driver.quit()
+        try:
+            self.driver.quit()
+        except URLError:
+            logging.info("selenium driver quit prematurely")
 
     def _run(self):
         subprocess.call(MAKE_COMMAND)
@@ -83,5 +87,10 @@ if __name__ == "__main__":
                 time.sleep(1)
         except KeyboardInterrupt:
             observer.stop()
+            try:
+                os.remove("chromedriver.log")
+                os.remove("libpeerconnection.log")
+            except OSError:
+                pass
         event_handler.cleanup()
         observer.join()
