@@ -449,3 +449,17 @@ And me:
 * http://pixelmonkey.org
 * http://twitter.com/amontalenti
 
+.. ifnotslides::
+
+    .. raw:: html
+
+        <script type="text/javascript">
+        $(function() {
+            $("body").css("width", "1080px");
+            $(".sphinxsidebar").css({"width": "200px", "font-size": "12px"});
+            $(".bodywrapper").css("margin", "auto");
+            $(".documentwrapper").css("width", "880px");
+            $(".logo").removeClass("align-right");
+        });
+        </script>
+
