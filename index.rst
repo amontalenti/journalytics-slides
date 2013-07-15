@@ -31,10 +31,14 @@ Marginal cost of web content: **zero**.
 
 .. rst-class:: build
 
-* **Print-era content**: monopolist one-way megaphones (newspapers, TV, radio)
-* **Web-era content**: distributed n-way channels (media websites, blogs, social networks)
-* **Content deluge**: commodotized the writer and enthroned the editor
-* **Editors vs Algorithms**: Google News and Reddit
+* | **Print-era content**: Monopolist one-way megaphones.
+  | Newspapers, TV, radio.
+* | **Web-era content**: Distributed n-way channels. 
+  | Media websites, blogs, social networks.
+* | **Content deluge**: Commoditized the writer.
+  | Enthroned the editor.
+* | **Editors vs Algorithms**: Google News and Reddit.
+  | Prismatic and Flipboard.
 
 What is online journalism?
 ==========================
@@ -81,12 +85,10 @@ A whole lot of "bad journalism" subsidizes the good stuff.
 Onward to the tech
 ==================
 
-Enough with the background, on to the tech.
-
 .. rst-class:: spaced
 
     .. image:: /_static/tech_stack.png
-        :width: 80%
+        :width: 90%
         :align: center
 
 Why does journalism need analytics?
@@ -102,7 +104,7 @@ Websites have a variety of interesting "first-party" metrics:
 * referrers
 * search keywords
 
-E-commerce and online ads drove their creation.
+E-commerce & ads drove web analytics industry.
 
 Is online journalism special?
 =============================
@@ -227,6 +229,14 @@ Scale
         :width: 90%
         :align: center
 
+Stack Overview
+==============
+
+.. rst-class:: spaced
+
+    .. image:: ./_static/oss_logos.png
+        :width: 90%
+        :align: center
 
 
 Backend Stack, v1 (2010-2011)
@@ -401,6 +411,7 @@ API Engagement Tools
 
     .. image:: ./_static/ars_related_stories.png
         :align: center
+        :width: 80%
 
 API Loyalty Tools
 =================
@@ -416,10 +427,25 @@ Conclusion
 .. rst-class:: spaced
 
     .. image:: ./_static/parsely.png
-        :width: 100%
+        :width: 90%
         :align: center
 
 .. rst-class:: build
 
 * Parse.ly aims to become the **definitive analytics system** for online journalism and content.
-* Want to help? We're hiring. :)
+* "Big Data": it actually applies here.
+* "Big Payoff": **help journalism thrive in the digital age**.
+
+Contact Us
+==========
+
+Get in touch. We're hiring :)
+
+* http://parse.ly
+* http://twitter.com/parsely
+
+And me:
+
+* http://pixelmonkey.org
+* http://twitter.com/amontalenti
+
