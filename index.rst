@@ -214,7 +214,7 @@ Servers running across:
 * **Rackspace Cloud**: data aggregation, web crawling, APIs.
 * **Himem Colo**: live analysis, dashboard worker nodes.
 
-Over **40 production** nodes with approximately **1 terabyte** of hot production RAM.
+Over **60 production** nodes with approximately **1 terabyte** of hot production RAM.
 
 Scale
 =====
